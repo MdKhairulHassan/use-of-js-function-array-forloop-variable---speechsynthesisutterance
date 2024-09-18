@@ -11,7 +11,6 @@
   //   let z = x + y
   //   let result = z
   //   console.log(result);
-
   // }
   // calculation()
 // ..............................................................................
@@ -25,15 +24,15 @@
 // jogBiog()
 // ..............................................................................
 // let team = ["A", "B", "C", "D", "E", "F", "G", "H", "i", "j"]
-// // console.log(teams);
-// // console.log(teams.length);
+// // console.log(team);
+// // console.log(team.length);
 // for (let i = 0; i < team.length; i++) {
 //   console.log(team[i]);
 // }
 // ..............................................................................
 // let team = ["A", "B", "C", "D", "E", "F", "G", "H", "i", "j"]
-// // console.log(teams);
-// // console.log(teams.length);
+// // console.log(team);
+// // console.log(team.length);
 // for (let i = 0; i < team.length; i++) {
 //   console.log(team[i-6]);
 // }
@@ -74,14 +73,16 @@
 //   md(memberList[i]);
 // }
 // ..............................................................................
-// // let question = "What is your age?"
-// let question = "What is your name?"
+// let question = "What is your age?"
+let question = "What is your name?"
 
-// // if (question == "What is your name?") {
-// //   console.log("my name is khairul hasan");
-  
-// // }
-
+// if (question == "What is your age?") {
+//   console.log("My age is 25");
+// }
+if (question == "What is your name?") {
+  console.log("My name is Khairul Hasan");
+}
+// ..............................................................................
 // function Qanswer() {
 //   if (question == "What is your name?") {
 //     let utterance = new SpeechSynthesisUtterance(`My name is khairul hasan`);
@@ -107,11 +108,13 @@
 // }
 // Qanswer()
 // ..............................................................................
-// js code for speechSynthesis End Start
+// another way of js code for speechSynthesis -Start Codes
+
 // (function() {
 //     'use strict';
 //     let utterance = new SpeechSynthesisUtterance("Hello world!");
 //     speechSynthesis.speak(utterance);
 // })();
-// js code for speechSynthesis End Codes 
+
+// another way of js code for speechSynthesis -End Codes 
 // ..............................................................................
